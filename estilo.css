@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: rgb(58,95,180);
+  background: linear-gradient(90deg, rgba(58,95,180,1) 0%, rgba(70,157,255,1) 50%, rgba(69,183,252,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.card {
+  background-color: #cbd6e4b0;
+  padding: 30px;
+  border-radius: 4%;
+  box-shadow: 3px 3px 1px 0px #00000060;
+  width: 400px;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0d009c
+}
+
+.label-float input{
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #0d009c;
+  background-color: transparent;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  border-radius: 0;
+  
+}
+
+.label-float{
+  position: relative;
+  padding-top: 13px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.label-float input:focus{
+  border-bottom: 2px solid #4038a0;
+}
+
+.label-float label{
+  color: #0d009c;
+  pointer-event: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label{
+  font-size: 13px;
+  margin-top: 0;
+  color: #4038a0
+}
+
+button{
+  background-color: transparent;
+  border-color: #0d009c;
+  color: #0d009c;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+}
+
+button:hover{
+  background-color: #0d009c;
+  color: #fff;
+}
+
+.justify-center{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-eye{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+  color: #0d009c;
+}
+
+#msgError{
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+#msgSuccess{
+  text-align: center;
+  color: #00bb00;
+  background-color: #bbffbe;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+
+
+
+/*Resetando os valores de espaçamento */
+* {
+  margin: 0;
+  padding: 0;
+  }
+ 
+ /*Estilizando a nav da classe menu */
+  .menu {
+  width: 100%;
+  height: 50px;
+  margin-top: -22px;
+  background-color: #00008b;
+  font-family: Arial;
+  }
+ 
+ /*Estilizando as listas */
+  .menu ul {
+  list-style: none;
+  position: relative;
+  }
+ 
+ .menu ul li {
+  width: 150px;
+  float: left;
+  }
+ 
+ .menu a {
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  background-color: #00008b;
+  color: #fff;
+  }
+ 
+ .menu ul ul {
+  position: absolute;
+  visibility: hidden;
+  }
+ 
+ .menu ul li:hover ul {
+  visibility: visible;
+  }
+ 
+ .menu a:hover {
+  background-color: #f4f4f4;
+  color: #555;
+  }
+ 
+ .menu ul ul li {
+  float: none;
+  border-bottom: solid 1px #ccc;
+  }
+ 
+ .menu ul ul li a {
+  background-color: #069;
+  }
+ 
+ /*Criando o label */
+  label[for=”bt_menu”]{
+  padding: 5px;
+  background-color: #222;
+  color: #fff;
+  font-family: Arial;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  height: 50px;
+  }
+ 
+ #bt_menu {
+  display: none;
+  }
+ 
+ label[for=”bt_menu”]{
+  display: none;
+  }
+ 
+ /*Deixando o Menu Responsivo */
+ @media(max-width: 800px) {
+ label[for=”bt_menu”] {
+  display: block;
+  }
+   
+ #bt_menu:checked ~ .menu{
+  margin-left: 0;
+  }
+   
+ .menu{
+  margin-top: 5px;
+  margin-left: -100%;
+  transition: all .4s;
+  }
+   
+ .menu ul li {
+  width: 100%;
+  float: none;
+  }
+   
+ .menu ul ul {
+  position: static;
+  overflow: hidden;
+  max-height: 0;
+  transition: all 4s;
+  }
+   
+ .menu ul li:hover ul {
+  height: auto;
+  max-height: 200px;
+  }
+ }
+ 
+ .final{
+     background: #7393B3;
+     width: 100%;
+   height: 300px;
+   margin-top: 80px;
+   position: absolute;
+ }

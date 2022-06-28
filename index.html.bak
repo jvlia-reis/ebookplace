@@ -1,0 +1,139 @@
+<head> 
+
+<meta charset="utf-8">
+<link rel="icon" type="imagem/png" href="icon.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> EBOOK PLACE </title>
+<link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+
+ <input type="checkbox" id="bt_menu" />
+  <label for="bt_menu">&#9776;</label>
+<nav class="menu">
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Cadastro</a>
+              <ul>
+                  <li><a href="#">Login</a></li>
+              
+              </ul>
+          </li>
+          <li><a href="#">Conteudo</a>
+              <ul>
+                  <li><a href="#">Literatura Nacional</a></li>
+                  <li><a href="#">Literatura Internacional</a></li>
+                  <li><a href="#">Literatura Infantil</a></li>
+              </ul>
+          </li>
+          <li><a href="#footer">Contato</a></li>
+      </ul>
+  </nav>
+
+<div class="titulo">
+<h1> RECEBA EBOOK'S MENSALMENTE <h1>
+</div> 
+
+<div class="background">
+</div>
+
+<div class="lendo">
+<img src="lendo.png" width="500px">
+</div>
+
+<div class="quadrado">
+</div>
+
+<div class="texto">
+<h1> Receba mensalmente os <br> melhores Ebook's deste ano <h1> 
+</div>
+
+<div class="texto2">
+<h1> Com a praticidade de recebê-los por e-mail <br>
+e ler em qualquer lugar a qualquer horário<br> por qualquer plataforma <h1> 
+</div>
+
+<div class="texto3">
+<h1> DISPONÍVEL PARA <h1> 
+</div>
+
+<div class="kindle">
+<img src="kindle.png" width="90">
+</div>
+
+<div class="ios">
+<img src="apple.png" width="90">
+</div>
+
+<div class="droid">
+<img src="droid.jpg" width="90">
+</div>
+
+<div class="bih">
+<img src="bih.png" width="420">
+</div>  
+
+<div class="square">
+</div>
+
+<div class="texto4">
+<h1> GARANTA AGORA! <h1> 
+</div>
+
+<div class="texto5">
+<h3> Faça seu cadastro e receba via e-mail as instruções para completá-lo <h3> 
+</div>
+
+
+
+<div class="botao">
+<a href="#" class="home-btn"></a>
+</div>
+
+<div class="texto6">
+<h3> Iniciar <h3> 
+</div>
+
+<div class="pessoa">
+<img src="person.png" width="200px">
+</div>
+
+<div class="linha">
+</div>
+
+<div class="texto7">
+<h1> LIVROS DE DESTAQUE DO MÊS <h1> 
+</div>
+
+
+<marquee behavior="scroll" direction="left">
+<img src="mindset.jpg" width="220px" alt="Natural" /> 
+ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<img src="es.jpg" width="220px" alt="Natural" /> 
+ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<img src="enqnt.jpg" width="220px" alt="Natural" /> 
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<img src="asc.jpg" width="220px" alt="Natural" /> 
+ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+ <img src="qneo.jpg" width="220px" alt="Natural" /> 
+ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+ <img src="cpp.jpg" width="220px" alt="Natural" /> 
+  </marquee>
+
+<div class="final">
+</div>
+
+<div class="logo">
+<img src="logo.png" width="290px">
+</div>
+
+<footer>
+<h1> Contato <h1>
+  <div class="h2"> <h1> ebookplace@gmail.com <h1>
+</footer>
+</div>
+</div>
+
+</body>
+</html>
